@@ -455,6 +455,5 @@ if (!process.env.DISCORD_TOKEN) {
   process.exit(1);
 }
 
-client.login = discordClient.login.bind(discordClient);
 discordClient.login(process.env.DISCORD_TOKEN)
   .catch(e => { console.error('❌ Login:', e.message); process.exit(1); });
