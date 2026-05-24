@@ -31,7 +31,7 @@ function fetchJSON(url, options = {}) {
 // ── Jeux Roblox ─────────────────────────────────────────────────────
 const GAMES = {
   volleyball: { name: 'Volleyball Legends',          id: 6900168517,  icon: '🏐', color: 0x3498db },
-  basketball: { name: 'Basketball Legends',          id: 2432751436,  icon: '🏀', color: 0xe67e22 },
+  basketball: { name: 'Basketball Legends',          id: 4552731030,  icon: '🏀', color: 0xe67e22 },
   tsb       : { name: 'The Strongest Battlegrounds', id: 13772394625, icon: '💪', color: 0xe74c3c },
   jjk       : { name: 'Jujutsu Shenanigans',         id: 15108547472, icon: '⚡', color: 0x9b59b6 },
   reelseas  : { name: 'Reel Seas',                   id: 17355261493, icon: '🎣', color: 0x1abc9c },
